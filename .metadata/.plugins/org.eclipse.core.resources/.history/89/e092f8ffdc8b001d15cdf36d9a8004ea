@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class ControlStatementFor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Value");
+		int num = sc.nextInt();
+		int i,sum=0,count=0,average;
+		for(i=1;i<5;i++) {
+			sum=sum+num;
+			average = sum/count;
+			count++;
+			System.out.println("i is less than 5");
+		}
+	}
+
+}

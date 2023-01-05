@@ -1,0 +1,17 @@
+public class ArithmeticException  
+{  
+void division(int a, int b)  
+{  
+int div = a / b;  
+System.out.println("Division process done successfully.");  
+System.out.println("Division result is: " + div);  
+}  
+  
+// main method  
+public static void main(String argvs[])  
+{  
+// creating an object of the class ArithmeticException  
+ArithmeticException a = new ArithmeticException();  
+a.division(2, 1);  
+}  
+}  

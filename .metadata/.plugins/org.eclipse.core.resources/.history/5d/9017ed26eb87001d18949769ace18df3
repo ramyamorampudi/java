@@ -1,0 +1,27 @@
+class Sports{
+	void input() {
+		System.out.println("Different types of sports");
+	}
+}
+class Outdoor extends Sports{
+	void out() {
+		System.out.println("Outdoor sports");
+	}
+}
+class Football extends Outdoor{
+	void sport() {
+		System.out.println("Football is an outdoor sport");
+	}
+}
+public class MultiInheritance {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Football a=new Football();
+		a.input();
+		a.out();
+		a.sport();
+
+	}
+
+}

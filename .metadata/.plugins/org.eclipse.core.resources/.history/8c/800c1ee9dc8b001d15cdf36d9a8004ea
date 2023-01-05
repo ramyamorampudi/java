@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class ControlStatementFor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Value");
+		int i;
+		for(i=0;i<5;i++) {
+			System.out.println("i is less than 5");
+		}
+	}
+
+}
