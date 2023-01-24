@@ -1,0 +1,13 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+<class name= "com.ex.College" table="college">
+<id name="st_id" column="st_id"></id>
+<property name="s_name" column="s_name"></property>
+<property name="s_marks" column="s_marks"></property>
+<property name="section" column="section"></property>
+<property name="branch" column="branch"></property>
+</class>
+</hibernate-mapping>
