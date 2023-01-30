@@ -1,10 +1,24 @@
 package com.ex;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="college")
+
 public class College {
+	@Id
+	@Column(name="st_id")
 	private int st_id;
+	@Column(name="s_name")
 	private String s_name;
+	@Column(name="s_marks")
 	private int s_marks;
+	@Column(name="section")
 	private String section;
+	@Column(name="branch")
 	private String branch;
 	public int getSt_id() {
 		return st_id;
